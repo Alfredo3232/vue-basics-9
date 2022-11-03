@@ -4,10 +4,12 @@
       <label for="user-name">Your Name</label>
       <input id="user-name" name="user-name" type="text" />
     </div>
+
     <div class="form-control">
       <label for="age">Your Age (Years)</label>
       <input id="age" name="age" type="number" />
     </div>
+
     <div class="form-control">
       <label for="referrer">How did you hear about us?</label>
       <select id="referrer" name="referrer">
@@ -16,36 +18,43 @@
         <option value="newspaper">Newspaper</option>
       </select>
     </div>
+
     <div class="form-control">
       <h2>What are you interested in?</h2>
       <div>
         <input id="interest-news" name="interest" type="checkbox" />
         <label for="interest-news">News</label>
       </div>
+
       <div>
         <input id="interest-tutorials" name="interest" type="checkbox" />
         <label for="interest-tutorials">Tutorials</label>
       </div>
+
       <div>
         <input id="interest-nothing" name="interest" type="checkbox" />
         <label for="interest-nothing">Nothing</label>
       </div>
     </div>
+
     <div class="form-control">
       <h2>How do you learn?</h2>
       <div>
         <input id="how-video" name="how" type="radio" />
         <label for="how-video">Video Courses</label>
       </div>
+
       <div>
         <input id="how-blogs" name="how" type="radio" />
         <label for="how-blogs">Blogs</label>
       </div>
+
       <div>
         <input id="how-other" name="how" type="radio" />
         <label for="how-other">Other</label>
       </div>
     </div>
+
     <div>
       <button>Save Data</button>
     </div>
@@ -94,8 +103,8 @@ input[type='radio'] {
   margin-right: 1rem;
 }
 
-input[type='checkbox'] + label,
-input[type='radio'] + label {
+input[type='checkbox']+label,
+input[type='radio']+label {
   font-weight: normal;
 }
 
